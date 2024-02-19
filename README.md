@@ -1,2 +1,1 @@
-# megtoots.github.io
-I love hamburgers
+ # megtoots.github.io
