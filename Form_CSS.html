@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title> Registration Form </title>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <style> 
+        body {
+            font-family: Oswald;
+            background-color: lightslategray;
+            padding-top: 10px;
+            margin: 0 auto;
+        }
+        form {
+            background-color: white;
+            border-radius: 3%;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-top: 10px;
+            width: 270px;
+            margin: 0 auto;
+        }
+        button {
+            border: none;
+            outline: none;
+            box-shadow: none;
+            color:white;
+            width:75px;
+        }
+        #submit {
+            background-color: green;
+        }
+        #reset{
+            background-color: red;
+        }
+    </style>
+ </head>
+ <body>
+    <form>
+        <h1>Registration Form</h1>
+        First name: <br/> <input type= "text" name= "firstname" /> <br/>
+        Last Name: <br/> <input type= "text" name= "lastname" /> <br/>
+        Nick Name: <br/> <input type= "text" name= "nickname" /> <br/> 
+        Email: <br/> <input type= "text" name= "email" /> <br/> 
+        Password: <br/> <input type= "password" name= "password" /> <br/> 
+        Date of Birth: <br/> <input type= "date" name= "birthdate" /> <br/> 
+        Gender: <br/>
+        <input type= "radio" name= "Male" /> Male
+        <input type= "radio" name= "Female" /> Female
+        <input type= "radio" name= "Other" /> Other
+        <br />
+        Mobile:  <br/>  <input type= "tel" name= "mobile" /> <br/> 
+        Address: <br/>  <textarea name= "address" rows="4" cols="21"> </textarea>  <br/>
+        <button id="submit">Submit</button>
+        <button id="reset">Reset</button>
+    </form>
+ </body>
+</html>
